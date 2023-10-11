@@ -1,6 +1,7 @@
 # Kubernetes project
 ## Summary
 This project is (video to mp3 converter with authorization function) aplication build with multiple contenerized services and deployed to K8s loccaly with use of minikube.<br />
+<br />
 !!!This app dont have UI yet, so all operations must be done via curl!!!<br />
 <br />
 <br />
