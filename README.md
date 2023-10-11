@@ -16,7 +16,7 @@ Stack:<br />
 ![Blank diagram (2)](https://github.com/sloniecki/kubernetesproject/assets/125316037/37394e35-c4f4-4982-887a-10d54093a4b8)<br />
 <br />
 1) Gateway service - allow user comunicate with login service and upload/download files.<br />
-2) Authentication service - validate user credentials then creates JWT Token.<br />
+2) Authentication service - validate user credentials then creates JWT.<br />
 3) MySQL - stores user login credentials. <br />
 4) RabitMQ - has 2 queues video and mp3, when user uploads video gateway sends message throught video queue to converter service.<br />
    When conversion is finished conversion service sends message that contains mp3 id to mp3 queue which is designeted for notification service.<br />
